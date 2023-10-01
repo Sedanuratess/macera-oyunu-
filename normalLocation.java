@@ -6,7 +6,7 @@ public abstract class normalLocations extends Location {
         super(Player, name, id);
     }
 
-    @Override
+    @Override 
     public boolean onLocation() {
         return true;
     }
